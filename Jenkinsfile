@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "Avis2good/train-schedule"
+        DOCKER_IMAGE_NAME = "avis2good/train-schedule"
     }
     stages {
         stage('Build') {
